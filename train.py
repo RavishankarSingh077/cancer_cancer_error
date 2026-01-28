@@ -91,6 +91,6 @@ def train_model(symbol="AAPL", mode="intraday"):
 
 if __name__ == "__main__":
     print("--- Training Intraday Model ---")
-    train_model("MON100.NS", mode="intraday")
+    train_model("RELIANCE.NS", mode="intraday")
     print("\n--- Training Daily Model (RF) ---")
-    train_model("MON100.NS", mode="daily")
+    train_model("RELIANCE.NS", mode="daily")
